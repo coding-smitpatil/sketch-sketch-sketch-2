@@ -1,0 +1,18 @@
+#showsketch{
+    float:right;
+}
+
+canvas{
+    border: 5px solid rgb(160, 154, 154);
+    border-radius: 20px;
+    margin-top: 50px;
+    animation-name:animationy;
+    animation-duration: 6s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes animationy{
+    from{box-shadow: 2px 2px 40px crimson;}
+    to{box-shadow: 4px 4px 40px rgb(30, 201, 144);}
+    
+}
